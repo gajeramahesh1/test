@@ -1,0 +1,29 @@
+create new branch 
+git branch new_branch
+
+1) Pull from master branch
+   git pull origin master
+
+2) Add new change
+   git add  change_file
+
+3) Commit code to branch
+ git commit -m "add new line"
+
+4) Push to origin 
+    git push origin new_branch
+
+Merge branch 
+first switch branch to master
+1) switch branch
+git checkout master
+
+2)merge new_branch
+  git merge new_branch
+
+3)push to master
+ push origin master
+
+
+
+
